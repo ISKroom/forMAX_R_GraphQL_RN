@@ -1,0 +1,11 @@
+type Job @model {
+  id: ID!
+  userId: String!
+  username: String!
+  templateNo: Int!
+  copyNum: Int!
+  progress: Int!
+  createdAt: String
+  isCancelled: Boolean
+  isCompleted: Boolean
+}
